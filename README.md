@@ -1,8 +1,7 @@
 cli-table3 
 ===============================================================================
 
-[![npm version](https://img.shields.io/npm/v/cli-table3.svg)](https://www.npmjs.com/package/cli-table3)
-[![Build Status](https://travis-ci.com/cli-table/cli-table3.svg?branch=master)](https://travis-ci.com/cli-table/cli-table3)
+[![npm version](https://img.shields.io/npm/v/@wekanteam/cli-table3.svg)](https://www.npmjs.com/package/@wekanteam/cli-table3)
 
 This utility allows you to render unicode-aided tables on the command line from
 your node.js scripts.
@@ -24,7 +23,7 @@ unmaintained. `cli-table3` includes all the additional features from
 - Better handling of text color that spans multiple lines.
 - API compatible with the original cli-table.
 - Exhaustive test suite including the entire original cli-table test suite.
-- Lots of examples auto-generated from the tests ([basic](https://github.com/cli-table/cli-table3/blob/master/basic-usage.md), [advanced](https://github.com/cli-table/cli-table3/blob/master/advanced-usage.md)).
+- Lots of examples auto-generated from the tests ([basic](https://github.com/wekan/cli-table3/blob/master/basic-usage.md), [advanced](https://github.com/wekan/cli-table3/blob/master/advanced-usage.md)).
 
 ## Features
 
@@ -46,8 +45,8 @@ npm install cli-table3
 ## How to use
 
 A portion of the unit test suite is used to generate examples:
-- [basic-usage](https://github.com/cli-table/cli-table3/blob/master/basic-usage.md) - covers basic uses.
-- [advanced](https://github.com/cli-table/cli-table3/blob/master/advanced-usage.md) - covers using the new column and row span features.
+- [basic-usage](https://github.com/wekan/cli-table3/blob/master/basic-usage.md) - covers basic uses.
+- [advanced](https://github.com/wekan/cli-table3/blob/master/advanced-usage.md) - covers using the new column and row span features.
 
 This package is api compatible with the original [cli-table](https://github.com/Automattic/cli-table).
 So all the original documentation still applies (copied below).

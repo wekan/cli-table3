@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.7.0 (2021-10-25)
+
+### :house: Internal
+* [deps](https://github.com/wekan/cli-table3/commit/626e6c382a22a1ceecaa3cf1fdeaa0a69b953098) Updated dependencies ([@xet7](https://github.com/xet7))
+
+### Committers: 1
+- Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
+
 ## v0.6.0 (2020-03-30)
 
 #### :boom: Breaking Change
