@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.1 (2021-12-22)
+
+### :house: Internal
+* [deps](https://github.com/wekan/cli-table3/commit/19cda1cb8b05bf8e9be954ee234d19580f93838c) Updated dependencies. Removed devDependencies. ([@xet7](https://github.com/xet7))
+
+### Committers: 1
+- Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
 ## v0.7.0 (2021-10-25)
 
 ### :house: Internal
