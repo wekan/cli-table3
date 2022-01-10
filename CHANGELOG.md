@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.2 (2022-01-20)
+
+### :house: Internal
+* [deps](https://github.com/wekan/cli-table3/commit/9717e831fc10ff62bc8c1ffb37ab96b00ce04f4e) Updated dependencies. Removed optional dependency colors. ([@xet7](https://github.com/xet7))
+
+### Committers: 1
+- Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
 ## v0.7.1 (2021-12-22)
 
 ### :house: Internal
