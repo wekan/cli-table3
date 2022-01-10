@@ -1,6 +1,6 @@
 {
   "name": "@wekanteam/cli-table3",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Pretty unicode tables for the command line. Based on the original cli-table.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -13,10 +13,7 @@
     "test": "test"
   },
   "dependencies": {
-    "string-width": "^5.0.1"
-  },
-  "optionalDependencies": {
-    "colors": "^1.1.2"
+    "string-width": "^5.1.0"
   },
   "repository": {
     "type": "git",
