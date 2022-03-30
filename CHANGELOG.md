@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.7.4 (2022-03-30)
+
+### :house: Internal
+* [deps](https://github.com/wekan/cli-table3/commit/7aa681e91677b6ddc68c18b6b014262e8cead21c)
+
+Updated dependencies. ([@xet7](https://github.com/xet7))
+
+### Committers: 1
+- Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
 ## v0.7.2 (2022-01-20)
 
 ### :house: Internal
