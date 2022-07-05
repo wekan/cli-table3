@@ -1,3 +1,4 @@
+jest.mock('colors/safe', () => jest.requireActual('@colors/colors/safe'));
 (function () {
   describe('verify original cli-table behavior', function () {
     commonTests(require('cli-table'));
@@ -8,7 +9,7 @@
   });
 
   function commonTests(Table) {
-    const colors = require('colors/safe');
+    const colors = require('@colors/colors/safe');
 
     it('empty table has a width of 0', function () {
       let table = new Table();

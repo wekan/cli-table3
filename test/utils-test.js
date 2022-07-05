@@ -1,5 +1,5 @@
 describe('utils', function () {
-  const colors = require('colors/safe');
+  const colors = require('@colors/colors/safe');
   const utils = require('../src/utils');
 
   const { strlen, repeat, pad, truncate, mergeOptions, wordWrap } = utils;
@@ -322,6 +322,18 @@ describe('utils', function () {
       let expected = ['\x1b[31m漢字\x1b[0m', ' 漢字'];
       expect(wordWrap(5, input)).toEqual(expected);
     });
+
+    describe('textWrap', function () {
+      it('wraps long words', function () {
+        expect(wordWrap(10, 'abcdefghijklmnopqrstuvwxyz', false)).toEqual(['abcdefghij', 'klmnopqrst', 'uvwxyz']);
+        expect(wordWrap(10, 'abcdefghijk lmnopqrstuv wxyz', false)).toEqual(['abcdefghij', 'k lmnopqrs', 'tuv wxyz']);
+        expect(wordWrap(10, 'ab cdefghijk lmnopqrstuv wx yz', false)).toEqual([
+          'ab cdefghi',
+          'jk lmnopqr',
+          'stuv wx yz',
+        ]);
+      });
+    });
   });
 
   describe('colorizeLines', function () {
@@ -373,6 +385,18 @@ describe('utils', function () {
       let input = colors.red('漢字\nテスト').split('\n');
 
       expect(utils.colorizeLines(input)).toEqual([colors.red('漢字'), colors.red('テスト')]);
+    });
+  });
+
+  describe('hyperlink', function () {
+    const url = 'http://example.com';
+    const text = 'hello link';
+    const expected = (u, t) => `\x1B]8;;${u}\x07${t}\x1B]8;;\x07`;
+    it('wraps text with link', () => {
+      expect(utils.hyperlink(url, text)).toEqual(expected(url, text));
+    });
+    it('defaults text to link', () => {
+      expect(utils.hyperlink(url, url)).toEqual(expected(url, url));
     });
   });
 });
