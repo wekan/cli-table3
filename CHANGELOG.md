@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.7.8 (2022-11-05)
+
+### :house: Internal
+* Fetch all from upstream. Updated dependencies.  ([@xet7](https://github.com/xet7))
+
+### Committers: 1
+- Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
 ## v0.7.7 (2022-07-05)
 
 ### :house: Internal
