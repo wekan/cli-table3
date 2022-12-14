@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.8.0 (2022-12-14)
+
+### :house: Internal
+* [deps](https://github.com/wekan/cli-table3/commit/).
+
+* Updated dependencies.  ([@xet7](https://github.com/xet7))
+
+### Committers: 1
+- Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
 ## v0.7.9 (2022-11-21)
 
 ### :house: Internal
@@ -69,6 +79,12 @@ Updated dependencies. ([@xet7](https://github.com/xet7))
 
 ### Committers: 1
 - Lauri Ojansivu ([@xet7](https://github.com/xet7))
+
+## v0.6.3 (2022-09-15)
+
+#### :rocket: Enhancement
+
+* [#303](https://github.com/cli-table/cli-table3/pull/303) Add ability to set/override wordWrap and wrapOnWordBoundary options per cell ([@shazron](https://github.com/shazron))
 
 ## v0.6.2 (2022-04-11)
 
